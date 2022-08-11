@@ -1,4 +1,4 @@
-/*Copy Right Credits 2022 @AJMAL
+/*Copy Right © 2022 @AJMAL
  https://github.com/Ajmal-Achu*/
 
 import random
