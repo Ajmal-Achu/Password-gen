@@ -14,9 +14,9 @@ let symbol = "!@3$%^&*+?,_"
 
 // random password genarator
 
-all =lower + upper + number + symbol
-length = 11
-password = "".join(random.sample(all,length))
+ajmal =lower + upper + number + symbol
+charactes = 11
+password = "".join(random.sample(ajmal,characters))
 
 
 print(" THE RANDOMLY GENARATED PASSWORD IS :" + password)
