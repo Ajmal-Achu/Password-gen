@@ -1,5 +1,5 @@
-/* Copy Right Credits 2022 @AJMAL
-https://github.com/Ajmal-Achu*/
+/*Copy Right Credits 2022 @AJMAL
+ https://github.com/Ajmal-Achu*/
 
 import random
 
@@ -7,8 +7,8 @@ import random
 
 let lower = "abcdefghijklmnopqrstuvwxyz"
 let upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-let number = "123456789
-let symbol = "!@3$%^&*+?,_
+let number = "123456789"
+let symbol = "!@3$%^&*+?,_"
 
 // values ends here
 
