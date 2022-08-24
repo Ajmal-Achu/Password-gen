@@ -1,6 +1,8 @@
-# Random-Password-Genarator
+# Password-Gen
 
-Create a powerful secure password using Password-Gen tool. Help prevent a security threat by getting a strong password. It's a random password generator to create long random passwords.
+### Introduction
+Generally, we sign-up for various websites such as E-commerce, Social Media and others and many a times are not able to manage passwords and usernames effectively. What if we had a Password Management System that could help us in this direction ? Yes, what you think is right? This is a Password Generator. The Password Generation module is responsible for helping you create unique and secure password.
+
 
 ### Characteristics of strong passwords:
 - At least 11 characters—the more characters, the better
@@ -9,8 +11,6 @@ Create a powerful secure password using Password-Gen tool. Help prevent a securi
 - The randomly genarated password includes symboles also e.g., ! @ # $ % ^ * + = - ? ]
 
 
-### Introduction
-Generally, we sign-up for various websites such as E-commerce, Social Media and others and many a times are not able to manage passwords and usernames effectively. What if we had a Password Management System that could help us in this direction ? Yes, what you think is right? This is a Password Generator and Management System. The Password Generation module is responsible for helping you create unique and secure password. The Password Management module is responsible to store and retrieve the passwords pertaining to the websites in which you have / want to have an account. 
 
 ### ⚒️ Tech Stack and Tools Used
 
@@ -24,5 +24,5 @@ Generally, we sign-up for various websites such as E-commerce, Social Media and 
 * After that you are good to proceed.
 
 <p align="center">
-<img src="https://github.com/Ajmal-Achu/bolb/main/password.gif"
+<img src="https://github.com/Ajmal-Achu/Password-gen/blob/main/Media/password.gif"
 </p>
