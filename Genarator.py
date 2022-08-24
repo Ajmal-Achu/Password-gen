@@ -1,22 +1,35 @@
-/*Copy Right © 2022 @AJMAL
- https://github.com/Ajmal-Achu*/
-
 import random
 
-// values
+def generatePassword(pwlength):
 
-let lower = "abcdefghijklmnopqrstuvwxyz"
-let upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-let number = "123456789"
-let symbol = "!@3$%^&*+?,_"
+    alphabet = "abcdefghijklmnopqrstuvwxyz"
 
-// values ends here
+    passwords = [] 
 
-// random password genarator
+    for i in pwlength:
+        
+        password = "" 
+        for j in range(i):
+            next_letter_index = random.randrange(len(alphabet))
+            password = password + alphabet[next_letter_index]
+        
+        password = replaceWithNumber(password)
+        password = replaceWithUppercaseLetter(password)
+        
+        passwords.append(password) 
+    
+    return passwords
 
-ajmal =lower + upper + number + symbol
-charactes = 11
-password = "".join(random.sample(ajmal,characters))
+
+def replaceWithNumber(pword):
+    for i in range(random.randrange(1,3)):
+        replace_index = random.randrange(len(pword)//2)
+        pword = pword[0:replace_index] + str(random.randrange(10)) + pword[replace_index+1:]
+        return pword
 
 
-print(" THE RANDOMLY GENARATED PASSWORD IS :" + password)
+def replaceWithUppercaseLetter(pword):
+    for i in range(random.randrange(1,3)):
+        replace_index = random.randrange(len(pword)//2,len(pword))
+        pword = pword[0:replace_index] + pword[replace_index].upper() + pword[replace_index+1:]
+        return pword
