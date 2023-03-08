@@ -30,6 +30,7 @@ def replaceWithNumber(pword):
 
 def replaceWithUppercaseLetter(pword):
     for i in range(random.randrange(1,3)):
+        replace_index = random.randrange(len(pword)//2,len(pword))
         pword = pword[0:replace_index] + pword[replace_index].upper() + pword[replace_index+1:]
         return pword
 
