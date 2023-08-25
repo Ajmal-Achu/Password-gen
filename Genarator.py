@@ -1,24 +1,5 @@
 import random
 
-def generatePassword(pwlength):
-
-    alphabet = "abcdefghijklmnopqrstuvwxyz"
-
-    passwords = [] 
-
-    for i in pwlength:
-        
-        password = "" 
-        for j in range(i):
-            next_letter_index = random.randrange(len(alphabet))
-            password = password + alphabet[next_letter_index]
-        
-        password = replaceWithNumber(password)
-        password = replaceWithUppercaseLetter(password)
-        
-        passwords.append(password) 
-    
-    return passwords
 
 
 def replaceWithNumber(pword):
@@ -51,8 +32,7 @@ def replaceWithUppercaseLetter(pword):
         passwordLengths.append(length)
     
     
-    Password = generatePassword(passwordLengths)
-
+    
     for i in range(numPasswords):
         print ("Password #"+str(i+1)+" = " + Password[i])
 
